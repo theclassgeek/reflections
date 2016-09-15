@@ -9,3 +9,6 @@ Honestly, I don't see the value of partial commits at the moment...to save space
 
 How can you use the staging area to make sure you have one commit per logical change?
 It  allows a final stage before enacting a new commit where you can see (a) the changes made to the working repository and (b) the changes since the last commit. Hence the commit message once a commit is done will note miss any information as the user can review all changes (some of which they may have forgotten between commits)
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to split your program off into multiple delibertely different versions, but still be able to return to the original (/or another) branch to continue work
