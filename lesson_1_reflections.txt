@@ -1,0 +1,31 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+a) Highlighted different sections.
+b) avioded manual searching (& i.e. error)
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+a) Clear version history with better information on
+	- Changes made between versions
+	- Change dates
+b) Easier sorting/storage & therefore review of changed versions
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+a) "Logical" commit-periods are difficult to have an editor interpret or schedule. Allowing the human to manage it means the different versions will have clear differences which neccessitate a new version
+b) Manual commit messages will allow for easy review of the differences between versions. On a schedule, the only way to tell (at a glance) why a version was changed is to know what was being worked on a the time of the commit.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Tracking a project as a whole makes much more sense than each individual file. If one were to track each file's changes, you would have to remember changes to more and more files as the project grows. This is remarkably unscalable and tracking the connected files which have been committed would be more useful for providing snapshots into how a program works at a given time.
+
+How can you use the commands git log and git diff to view the history of files?
+
+git-log will list the various commits, their comments and their time-committed (as well as their id). Then you can use "git diff" with the id's of 2 different commits to see what changed between them
+
+How might using version control make you more confident to make changes that could break something?
+
+As above, changes the entire project can be easily tracked and moved between for easy reversion of changes. The use of commit comments may also offer the opportunity to estimate where a bug arose. Finally, the git diff function would allow for easy review of commits, without the need to go through all previous files/backups to look for differences.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Managing iterative anroid application development
