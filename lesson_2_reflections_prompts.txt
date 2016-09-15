@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+The repository ".git" file is created and the containing folder can then be treated as a git repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area contains the selected documents a user wants to commit.
+Honestly, I don't see the value of partial commits at the moment...to save space, maybe? Who knows...
