@@ -6,3 +6,6 @@ How is the staging area different from the working directory and the repository?
 
 The staging area contains the selected documents a user wants to commit.
 Honestly, I don't see the value of partial commits at the moment...to save space, maybe? Who knows...
+
+How can you use the staging area to make sure you have one commit per logical change?
+It  allows a final stage before enacting a new commit where you can see (a) the changes made to the working repository and (b) the changes since the last commit. Hence the commit message once a commit is done will note miss any information as the user can review all changes (some of which they may have forgotten between commits)
