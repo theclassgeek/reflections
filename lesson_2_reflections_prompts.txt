@@ -22,3 +22,8 @@ What is the result of merging two branches together? Why do we represent it in t
 
 The label to the non-master branch is removed - i.e. the master takes on all changes from the additional branch and all commits are listed as if they had taken place on the master branch.
 The changes (i.e. the added fields) are kept in the resultant program
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic side will save from having to manually review or approve every line of code which is changed/added.
+However, adding to above, git does not act in an intelligent way (only a systematically sound one). Changes or removals of lines of code require conflict resolution so the merger knows what issues might arise from other people's (or their own) conflicting changes.
