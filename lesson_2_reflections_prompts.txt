@@ -12,3 +12,13 @@ It  allows a final stage before enacting a new commit where you can see (a) the 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When you want to split your program off into multiple delibertely different versions, but still be able to return to the original (/or another) branch to continue work
+
+How do the diagrams help you visualize the branch structure?
+
+They show easily map out each branch's variation from the "master" and from one another.
+They also allow representation of how new features have been fit into the program.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The label to the non-master branch is removed - i.e. the master takes on all changes from the additional branch and all commits are listed as if they had taken place on the master branch.
+The changes (i.e. the added fields) are kept in the resultant program
