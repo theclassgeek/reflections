@@ -1,1 +1,4 @@
-<insert question here>
+When would you want to use a remote repository rather than keeping all your work local?
+
+I genuinely don't know...
+Perhaps when you have work which you want available to other contributors. Or perhaps work which you want to be available online, for when you are between devices - essentially using github as your cloud service
