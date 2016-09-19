@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 I genuinely don't know...
 Perhaps when you have work which you want available to other contributors. Or perhaps work which you want to be available online, for when you are between devices - essentially using github as your cloud service
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+You may want to work on the master branch of a repository with your own personal changes. In this case, these would be kept seperate from the remote branch until you are ready to upload them.
+  This is just 1 example though.
